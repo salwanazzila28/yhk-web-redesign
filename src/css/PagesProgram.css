@@ -1,0 +1,597 @@
+.program-pages {
+  background-color: #f3fde8;
+}
+
+.program-pages .program-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.program-pages .navigation-program {
+  display: flex;
+  margin: 40px 90px 30px 90px;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  box-shadow: 0 3px 10px #00000065;
+  transition: transform 0.3s ease;
+}
+
+.program-pages .navigation-program:hover {
+  transform: scale(1.05);
+}
+
+.navigation-program .navpro-title {
+  width: 270px;
+  justify-content: center;
+}
+
+.navigation-program .navpro-title p {
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--primary-dark);
+}
+
+.navigation-program .link-program {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  border-radius: 0px 18px 18px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-program .link-item {
+  padding: 5px;
+  font-weight: 500;
+}
+
+.link-program a {
+  margin: 0 15px;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.program-pages .program-content {
+  padding: 40px 50px 0 50px;
+}
+
+.program-content .title {
+  color: var(--primary-dark);
+  font-size: 22px;
+}
+
+.program-content .text {
+  margin: 30px 0 5px 0;
+}
+
+.program-content .text p {
+  text-align: left;
+  font-size: 18px;
+}
+
+.program-content .list-program {
+  margin: 30px 0 5px 0;
+}
+
+.list-program .program-tahun {
+  margin-bottom: 30px;
+}
+
+.list-program .program-tahun h1 {
+  color: var(--primary-dark);
+  margin-bottom: 15px;
+}
+
+.list-program .program-tahun ul {
+  margin-left: 10px;
+  list-style-type: square;
+  list-style-position: inside;
+  color: var(--secondary-color);
+}
+
+.list-program .program-tahun a {
+  line-height: 2;
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: var(--secondary-dark);
+}
+
+.program-tahun a:hover {
+  color: var(--primary-color);
+}
+
+.management {
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.management h1 {
+  text-align: center;
+  color: var(--primary-dark);
+}
+
+.management .line {
+  display: block;
+  width: 275px;
+  height: 3px;
+  background-color: var(--secondary-dark);
+  margin: auto;
+}
+
+.management .program-team {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.program-team .program-mem {
+  margin: 20px 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.program-mem img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #02803d;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.program-mem img:hover {
+  transform: scale(1.1);
+}
+.program-mem h4 {
+  color: #013d1d;
+  text-align: center;
+  font-size: 20px;
+}
+.program-mem p {
+  color: #013d1d;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Mobile S - M */
+@media (max-width: 375px) {
+  .program-pages {
+    max-width: 375px;
+  }
+  .program-pages .program-header {
+    padding-top: 45px;
+  }
+  .program-pages .navigation-program {
+    flex-direction: column;
+    margin: 35px;
+    gap: 10;
+  }
+  .program-pages .navigation-program:hover {
+    transform: scale(1.01);
+  }
+  .navigation-program .navpro-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .navigation-program .navpro-title p {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .navigation-program .link-program {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 0px 0px 18px 18px;
+  }
+  .link-program .link-item {
+    margin: 0;
+    text-align: center;
+    font-size: 0px;
+  }
+  .link-program .link-item a {
+    font-size: 14px;
+  }
+  .program-pages .program-content {
+    padding: 20px 20px 0 20px;
+  }
+  .program-content .title h1 {
+    font-size: 24px;
+  }
+  .program-content .text {
+    margin: 10px 0;
+  }
+  .program-content .text p {
+    font-size: 12px;
+  }
+  .list-program .program-tahun h1 {
+    font-size: 24px;
+  }
+  .list-program .program-tahun a {
+    font-size: 16px;
+  }
+  .program-content .management h1 {
+    font-size: 24px;
+  }
+  .management .line {
+    width: 175px;
+  }
+  .management .program-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .program-team .program-mem {
+    margin: 10px;
+  }
+  .program-team .program-mem img {
+    width: 120px;
+    height: 120px;
+  }
+  .program-team .program-mem h4 {
+    font-size: 16px;
+  }
+  .program-team .program-mem p {
+    font-size: 14px;
+  }
+}
+
+/* Mobile L */
+@media (min-width: 376px) and (max-width: 425px) {
+  .program-pages {
+    max-width: 425px;
+  }
+  .program-pages .program-header {
+    padding-top: 45px;
+  }
+  .program-pages .navigation-program {
+    flex-direction: column;
+    margin: 35px;
+    gap: 10;
+  }
+  .program-pages .navigation-program:hover {
+    transform: scale(1.01);
+  }
+  .navigation-program .navpro-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .navigation-program .navpro-title p {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .navigation-program .link-program {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 0px 0px 18px 18px;
+  }
+  .link-program .link-item {
+    margin: 0;
+    text-align: center;
+    font-size: 0px;
+  }
+  .link-program .link-item a {
+    font-size: 16px;
+  }
+  .program-pages .program-content {
+    padding: 20px 20px 0 20px;
+  }
+  .program-content .title h1 {
+    font-size: 28px;
+  }
+  .program-content .text {
+    margin: 10px 0;
+  }
+  .program-content .text p {
+    font-size: 16px;
+  }
+  .list-program .program-tahun h1 {
+    font-size: 28px;
+  }
+  .list-program .program-tahun a {
+    font-size: 18px;
+  }
+  .program-content .management h1 {
+    font-size: 28px;
+  }
+  .management .line {
+    width: 205px;
+  }
+  .management .program-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .program-team .program-mem {
+    margin: 10px;
+  }
+  .program-team .program-mem img {
+    width: 120px;
+    height: 120px;
+  }
+  .program-team .program-mem h4 {
+    font-size: 16px;
+  }
+  .program-team .program-mem p {
+    font-size: 14px;
+  }
+}
+
+/* Tablet Md */
+@media (min-width: 426px) and (max-width: 640px) {
+  .program-pages {
+    max-width: 640px;
+  }
+  .program-pages .program-header img {
+    padding-top: 50px;
+  }
+  .program-pages .navigation-program {
+    flex-direction: column;
+    margin: 30px;
+    gap: 10;
+  }
+  .program-pages .navigation-program:hover {
+    transform: scale(1.01);
+  }
+  .navigation-program .navpro-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .navigation-program .navpro-title p {
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .navigation-program .link-program {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 0px 0px 18px 18px;
+  }
+  .link-program .link-item {
+    margin: 0;
+    text-align: center;
+  }
+  .program-pages .program-content {
+    padding: 20px 40px 0 40px;
+  }
+  .program-content .title h1 {
+    font-size: 32px;
+  }
+  .program-content .text {
+    margin: 10px 0;
+  }
+  .program-content .text p {
+    font-size: 14px;
+  }
+  .list-program .program-tahun h1 {
+    font-size: 32px;
+  }
+  .list-program .program-tahun a {
+    font-size: 18px;
+  }
+  .program-content .management h1 {
+    font-size: 32px;
+  }
+  .program-team .program-mem {
+    margin: 20px 30px;
+  }
+  .program-team .program-mem img {
+    width: 130px;
+    height: 130px;
+  }
+  .program-team .program-mem h4 {
+    font-size: 18px;
+  }
+  .program-team .program-mem p {
+    font-size: 14px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 641px) and (max-width: 768px) {
+  .program-pages {
+    max-width: 768px;
+  }
+  .program-pages .program-header img {
+    padding-top: 50px;
+  }
+  .program-pages .navigation-program {
+    flex-direction: column;
+    margin: 30px;
+    gap: 10;
+  }
+  .program-pages .navigation-program:hover {
+    transform: scale(1.01);
+  }
+  .navigation-program .navpro-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .navigation-program .navpro-title p {
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .navigation-program .link-program {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 0px 0px 18px 18px;
+  }
+  .link-program .link-item {
+    margin: 0;
+    text-align: center;
+  }
+  .program-pages .program-content {
+    padding: 20px 40px 0 40px;
+  }
+  .program-content .title h1 {
+    font-size: 36px;
+  }
+  .program-content .text {
+    margin: 10px 0;
+  }
+  .program-content .text p {
+    font-size: 16px;
+  }
+  .list-program .program-tahun h1 {
+    font-size: 36px;
+  }
+  .list-program .program-tahun a {
+    font-size: 22px;
+  }
+  .program-content .management h1 {
+    font-size: 36px;
+  }
+  .program-team .program-mem {
+    margin: 20px 40px;
+  }
+  .program-team .program-mem img {
+    width: 180px;
+    height: 180px;
+  }
+  .program-team .program-mem h4 {
+    font-size: 18px;
+  }
+  .program-team .program-mem p {
+    font-size: 14px;
+  }
+}
+
+/* Laptop M */
+@media (min-width: 769px) and (max-width: 959px) {
+  .program-pages {
+    max-width: 959px;
+  }
+  .program-pages .program-header img {
+    padding-top: 50px;
+  }
+  .program-pages .navigation-program {
+    margin: 50px;
+    flex-direction: column;
+    gap: 10;
+  }
+  .program-pages .navigation-program:hover {
+    transform: scale(1.01);
+  }
+  .navigation-program .navpro-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .navigation-program .navpro-title p {
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .navigation-program .link-program {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 0px 0px 18px 18px;
+  }
+  .link-program .link-item {
+    margin: 0;
+    text-align: center;
+  }
+  .program-pages .program-content {
+    padding: 40px 40px 0 40px;
+  }
+  .program-content .title h1 {
+    font-size: 36px;
+  }
+  .program-content .text p {
+    text-align: left;
+    font-size: 16px;
+  }
+  .list-program .program-tahun h1 {
+    font-size: 36px;
+  }
+  .list-program .program-tahun a {
+    font-size: 24px;
+  }
+  .management h1 {
+    font-size: 36px;
+  }
+  .management .line {
+    width: 265px;
+  }
+  .program-mem img {
+    width: 170px;
+    height: 170px;
+  }
+  .program-mem h4 {
+    font-size: 18px;
+  }
+  .program-mem p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1024px) {
+  .program-pages {
+    max-width: 1024px;
+  }
+  .program-pages .program-header img {
+    padding-top: 50px;
+  }
+  .program-pages .navigation-program {
+    margin: 40px 30px 30px 30px;
+  }
+  .navigation-program .navpro-title p {
+    padding: 10px 10px 10px 20px;
+    font-size: 20px;
+  }
+  .navigation-program .link-program .link-item {
+    padding: 0;
+    font-weight: 500;
+  }
+  .link-program .link-item a {
+    margin: 0 4px;
+    font-size: 16px;
+  }
+  .program-pages .program-content {
+    padding: 40px 40px 0 40px;
+  }
+  .program-content .title h1 {
+    font-size: 36px;
+  }
+  .program-content .text p {
+    text-align: left;
+    font-size: 16px;
+  }
+  .list-program .program-tahun h1 {
+    font-size: 36px;
+  }
+  .list-program .program-tahun a {
+    font-size: 24px;
+  }
+  .management h1 {
+    font-size: 36px;
+  }
+  .management .line {
+    width: 265px;
+  }
+  .program-mem img {
+    width: 170px;
+    height: 170px;
+  }
+  .program-mem h4 {
+    font-size: 18px;
+  }
+  .program-mem p {
+    font-size: 14px;
+  }
+}

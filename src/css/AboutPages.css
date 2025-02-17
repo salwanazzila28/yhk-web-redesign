@@ -1,0 +1,1009 @@
+.about {
+  background-color: #f3fde8;
+  max-width: 1440px;
+}
+
+.about .about-container {
+  display: flex;
+  padding: 120px 80px 50px 80px;
+  justify-content: space-between;
+}
+
+.about-container .video-container {
+  border-radius: 20px 0 0 20px;
+  background: #ffff;
+  width: 50%;
+  padding: 20px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.about-container .about-text {
+  background: #ffff;
+  border-radius: 0px 20px 20px 0px;
+  width: 50%;
+  padding: 20px 20px 20px 10px;
+}
+
+.about-text .title-text p {
+  text-align: left;
+  font-size: 20px;
+  color: var(--secondary-dark);
+  margin: 15px 0;
+}
+
+.about-text .slogan h1 {
+  margin: 20px 0 28px 0;
+  font-size: 50px;
+  text-align: left;
+  color: var(--primary-dark);
+}
+
+.about-text .paragraf p {
+  text-align: left;
+  font-size: 16px;
+}
+
+.about-container .btn-kontak {
+  margin-top: 30px;
+}
+
+.btn-kontak .button {
+  border: 0;
+  font-size: 16px;
+  text-align: center;
+  color: #ffff;
+  font-weight: 600;
+  background-color: var(--secondary-dark);
+  border-radius: 30px;
+  padding: 10px 18px;
+  box-shadow: 0px 3px 5px rgba(70, 70, 70, 0.747);
+}
+
+.btn-kontak .button:hover {
+  background: var(--primary-dark);
+  color: #fff;
+}
+
+.timeline-section {
+  background-image: url(../assets/bghijaugrd.png);
+  min-height: 100vh;
+  padding: 50px 15px;
+}
+
+.timeline-section .title {
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--primary-dark);
+}
+
+.timeline-section .title h1 {
+  font-size: 38px;
+}
+
+.timeline-items {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.timeline-items::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: var(--secondary-color);
+  left: calc(50% - 1px);
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 30px);
+}
+
+.timeline-dot {
+  height: 20px;
+  width: 20px;
+  background-color: var(--primary-color);
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 10px);
+  top: 19px;
+}
+
+.timeline-date {
+  font-size: 24px;
+  color: var(--secondary-dark);
+  margin: 6px 0 15px;
+}
+
+.timeline-content-right,
+.timeline-content-left {
+  background-color: #ffff;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-color);
+}
+
+.timeline-content-right p {
+  color: var(--primary-color);
+  font-size: 17px;
+  font-weight: 300px;
+  line-height: 22px;
+  text-align: right;
+}
+
+.timeline-content-left p {
+  color: var(--primary-color);
+  font-size: 17px;
+  font-weight: 300px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.visi-misi {
+  background-color: #ffff;
+  padding: 10px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: left;
+}
+
+.visi-misi h2 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  color: var(--secondary-dark);
+}
+
+.visi-misi .col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+.visi-misi img {
+  width: 450px;
+  height: auto;
+}
+
+.visi-misi .col-2 .line {
+  display: block;
+  width: 90px;
+  height: 3px;
+  background-color: var(--primary-dark);
+}
+
+.visi-misi .col-2 p {
+  color: #000;
+  font-size: medium;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.visi-misi .col-2 ol li {
+  font-size: medium;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.visi-misi .col-2 .line {
+  margin-bottom: 17px;
+}
+
+.visi-misi .col-2 .line2 {
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin-bottom: 17px;
+  background-color: var(--primary-dark);
+}
+
+.location {
+  padding: 30px 50px;
+  width: 100%;
+}
+
+.location .location-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 30px 0;
+}
+
+.location .location-text h2 {
+  color: var(--primary-dark);
+  font-size: 3rem;
+  text-align: left;
+}
+
+.location .location-text p {
+  color: #000;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.location .map-container iframe {
+  border-radius: 10px;
+}
+
+.dewan {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.dewan .title {
+  text-align: center;
+  margin: 10px;
+  color: var(--primary-color);
+}
+
+.dewan .title .line {
+  display: block;
+  width: 145px;
+  height: 3px;
+  background-color: var(--secondary-dark);
+  margin: auto;
+}
+
+.dewan .members {
+  display: flex;
+  justify-content: center;
+}
+
+.dewan .members .team-mem {
+  margin: 20px 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.team-mem img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #02803d;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.team-mem img:hover {
+  transform: scale(1.1);
+}
+
+.team-mem h4 {
+  color: #013d1d;
+  text-align: center;
+  font-size: 20px;
+  margin: 7px 0;
+}
+
+.team-mem p {
+  color: #013d1d;
+  text-align: center;
+  font-size: 16px;
+  margin: 7px 0;
+}
+
+/* Mobile S - M */
+@media (max-width: 375px) {
+  .about {
+    max-width: 375px;
+  }
+  .about .about-container {
+    flex-direction: column;
+    padding: 100px 15px;
+  }
+  .about-container .video-container {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 270px;
+    padding: 10px;
+  }
+  .video-container iframe {
+    width: 100%;
+    height: 240px;
+    border-radius: 15px;
+  }
+  .about-container .about-text {
+    background: #ffff;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    padding: 5px 20px 40px 20px;
+  }
+  .about-text .title-text p {
+    text-align: left;
+    font-size: 14px;
+    color: var(--secondary-dark);
+    margin: 5px 0;
+  }
+  .about-text .slogan h1 {
+    margin: 10px 0 18px 0;
+    font-size: 22px;
+    text-align: left;
+    color: var(--primary-dark);
+  }
+  .about-text .paragraf p {
+    text-align: left;
+    font-size: 12px;
+  }
+  .btn-kontak .button {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .timeline-section .title h1 {
+    font-size: 26px;
+  }
+  .timeline-items::before {
+    left: 7px;
+  }
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 37px;
+  }
+  .timeline-item .timeline-date h2 {
+    font-size: 24px;
+  }
+  .timeline-dot {
+    left: 0;
+    top: 10px;
+  }
+  .timeline-content-left,
+  .timeline-content-right {
+    padding: 10px;
+  }
+  .timeline-content-left p {
+    font-size: 12px;
+  }
+  .timeline-content-right p {
+    text-align: left;
+    font-size: 12px;
+  }
+  .visi-misi {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .visi-misi img {
+    display: none;
+  }
+  .visi-misi .col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .col-2 h2 {
+    font-size: 24px;
+  }
+  .visi-misi .col-2 p {
+    font-size: 12px;
+  }
+  .visi-misi .col-2 ol li {
+    font-size: 12px;
+  }
+  .about .location {
+    padding: 30px 20px;
+  }
+  .location .location-text {
+    display: inline;
+  }
+  .location .location-text h2 {
+    font-size: 30px;
+  }
+  .location-text .loct {
+    margin: 10px 0;
+  }
+  .location-text .loct p {
+    font-size: 12px;
+  }
+  .location .map-container {
+    padding: 10px 0px 40px 0px;
+  }
+  .location .map-container iframe {
+    border-radius: 10px;
+    height: 240px;
+  }
+  .dewan .title h1 {
+    font-size: 26px;
+  }
+  .dewan .title .line {
+    width: 100px;
+  }
+  .dewan .members {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .dewan .members .team-mem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .team-mem img {
+    width: 120px;
+    height: 120px;
+  }
+  .team-mem h4 {
+    font-size: 16px;
+  }
+  .team-mem p {
+    font-size: 14px;
+    margin: 2px 0px;
+  }
+}
+
+/* Mobile L */
+@media (min-width: 376px) and (max-width: 425px) {
+  .about {
+    max-width: 425px;
+  }
+  .about .about-container {
+    flex-direction: column;
+    padding: 100px 15px;
+  }
+  .about-container .video-container {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 270px;
+    padding: 10px;
+  }
+  .video-container iframe {
+    width: 100%;
+    height: 240px;
+    border-radius: 15px;
+  }
+  .about-container .about-text {
+    background: #ffff;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    padding: 5px 20px 40px 20px;
+  }
+  .about-text .title-text p {
+    text-align: left;
+    font-size: 18px;
+    color: var(--secondary-dark);
+    margin: 5px 0;
+  }
+  .about-text .slogan h1 {
+    margin: 10px 0 18px 0;
+    font-size: 24px;
+    text-align: left;
+    color: var(--primary-dark);
+  }
+  .about-text .paragraf p {
+    text-align: left;
+    font-size: 14px;
+  }
+  .btn-kontak .button {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .timeline-section .title h1 {
+    font-size: 30px;
+  }
+  .timeline-items::before {
+    left: 7px;
+  }
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 37px;
+  }
+  .timeline-item .timeline-date h2 {
+    font-size: 24px;
+  }
+  .timeline-dot {
+    left: 0;
+    top: 10px;
+  }
+  .timeline-content-left,
+  .timeline-content-right {
+    padding: 10px;
+  }
+  .timeline-content-left p {
+    font-size: 14px;
+  }
+  .timeline-content-right p {
+    text-align: left;
+    font-size: 14px;
+  }
+  .visi-misi {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .visi-misi img {
+    display: none;
+  }
+  .visi-misi .col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .col-2 h2 {
+    font-size: 30px;
+  }
+  .visi-misi .col-2 p {
+    font-size: 14px;
+  }
+  .visi-misi .col-2 ol li {
+    font-size: 14px;
+  }
+  .about .location {
+    padding: 30px 20px;
+  }
+  .location .location-text {
+    display: inline;
+  }
+  .location .location-text h2 {
+    font-size: 30px;
+  }
+  .location-text .loct {
+    margin: 10px 0;
+  }
+  .location-text .loct p {
+    font-size: 14px;
+  }
+  .location .map-container {
+    padding: 10px 0px 40px 0px;
+  }
+  .location .map-container iframe {
+    border-radius: 10px;
+    height: 240px;
+  }
+  .dewan .title h1 {
+    font-size: 30px;
+  }
+  .dewan .title .line {
+    width: 110px;
+  }
+  .dewan .members {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .dewan .members .team-mem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .team-mem img {
+    width: 120px;
+    height: 120px;
+  }
+  .team-mem h4 {
+    font-size: 16px;
+  }
+  .team-mem p {
+    font-size: 14px;
+    margin: 2px 0px;
+  }
+}
+
+/*Tablet Md*/
+@media (min-width: 426px) and (max-width: 640px) {
+  .about {
+    max-width: 640px;
+  }
+  .about .about-container {
+    flex-direction: column;
+    padding: 100px 30px;
+  }
+  .about-container .video-container {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 330px;
+    padding: 20px;
+  }
+  .video-container iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+  }
+  .about-container .about-text {
+    background: #ffff;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    padding: 20px 20px 40px 20px;
+  }
+  .about-text .title-text p {
+    text-align: left;
+    font-size: 18px;
+    color: var(--secondary-dark);
+    margin: 5px 0;
+  }
+  .about-text .slogan h1 {
+    margin: 10px 0 18px 0;
+    font-size: 32px;
+    text-align: left;
+    color: var(--primary-dark);
+  }
+  .about-text .paragraf p {
+    text-align: left;
+    font-size: 16px;
+  }
+  .btn-kontak .button {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .timeline-section .title h1 {
+    font-size: 32px;
+  }
+  .timeline-items::before {
+    left: 7px;
+  }
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 37px;
+  }
+  .timeline-dot {
+    left: 0;
+  }
+  .timeline-content-left p {
+    font-size: 14px;
+  }
+  .timeline-content-right p {
+    text-align: left;
+    font-size: 14px;
+  }
+  .visi-misi {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+  .visi-misi .col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .col-2 h2 {
+    font-size: 32px;
+  }
+  .visi-misi .col-2 p {
+    font-size: 16px;
+  }
+  .visi-misi .col-2 ol li {
+    font-size: 16px;
+  }
+  .visi-misi img {
+    display: none;
+  }
+  .about .location {
+    padding: 30px 30px;
+  }
+  .location .location-text {
+    display: inline;
+  }
+  .location .location-text h2 {
+    font-size: 32px;
+  }
+  .location-text .loct {
+    margin: 10px 0;
+  }
+  .location-text .loct p {
+    font-size: 14px;
+  }
+  .location .map-container {
+    padding: 10px 0px 40px 0px;
+  }
+  .location .map-container iframe {
+    border-radius: 10px;
+    height: 240px;
+  }
+  .dewan .title h1 {
+    font-size: 32px;
+  }
+  .dewan .title .line {
+    width: 130px;
+  }
+  .dewan .members {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .dewan .members .team-mem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .team-mem img {
+    width: 135px;
+    height: 135px;
+  }
+  .team-mem h4 {
+    font-size: 18px;
+  }
+  .team-mem p {
+    font-size: 16px;
+    margin: 2px 0px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 640px) and (max-width: 768px) {
+  .about {
+    max-width: 768px;
+  }
+  .about-container {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+  .about-container .video-container {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 330px;
+    padding: 20px;
+  }
+  .video-container iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+  }
+  .about-container .about-text {
+    background: #ffff;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+    padding: 20px 20px 40px 20px;
+  }
+  .about-text .title-text p {
+    text-align: left;
+    font-size: 16px;
+    color: var(--secondary-dark);
+    margin: 5px 0;
+  }
+  .about-text .slogan h1 {
+    margin: 10px 0 18px 0;
+    font-size: 28px;
+    text-align: left;
+    color: var(--primary-dark);
+  }
+  .about-text .paragraf p {
+    text-align: left;
+    font-size: 14px;
+  }
+  .btn-kontak .button {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .timeline-items::before {
+    left: 7px;
+  }
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 37px;
+  }
+  .timeline-dot {
+    left: 0;
+  }
+  .timeline-content-right p {
+    text-align: left;
+  }
+  .visi-misi {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .visi-misi .col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .visi-misi img {
+    display: none;
+  }
+  .location .location-text {
+    display: inline;
+  }
+  .location-text .loct {
+    margin: 20px 0;
+  }
+  .dewan .members {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .dewan .members .team-mem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .team-mem img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #02803d;
+    margin: 0;
+    display: block;
+  }
+  .team-mem p {
+    font-size: 14px;
+  }
+}
+
+/* Laptop M */
+@media (min-width: 769px) and (max-width: 959px) {
+  .about {
+    max-width: 959px;
+  }
+  .about .about-container {
+    padding: 120px 20px 50px 20px;
+  }
+  .video-container iframe {
+    width: 100%;
+    height: 450px;
+  }
+  .about-text .title-text p {
+    font-size: 18px;
+  }
+  .about-text .slogan h1 {
+    font-size: 36px;
+  }
+  .about-text .paragraf p {
+    font-size: 14px;
+  }
+  .timeline-section .title h1 {
+    font-size: 32px;
+  }
+  .timeline-content-right p {
+    font-size: 14px;
+  }
+  .timeline-content-left p {
+    font-size: 14px;
+  }
+  .visi-misi h2 {
+    font-size: 32px;
+  }
+  .visi-misi .col-2 {
+    margin-top: 5px;
+  }
+  .visi-misi .col-2 p {
+    font-size: 14px;
+  }
+  .visi-misi .col-2 ol li {
+    font-size: 14px;
+  }
+  .location .location-text h2 {
+    font-size: 32px;
+  }
+  .location .location-text p {
+    font-size: 13px;
+  }
+  .dewan .title h1 {
+    font-size: 32px;
+  }
+  .dewan .title .line {
+    width: 120px;
+  }
+  .dewan .members .team-mem {
+    margin: 20px 40px;
+  }
+  .team-mem img {
+    width: 160px;
+    height: 160px;
+  }
+  .team-mem h4 {
+    font-size: 16px;
+  }
+  .team-mem p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1024px) {
+  .about {
+    max-width: 1024px;
+  }
+  .about .about-container {
+    padding: 120px 25px 50px 25px;
+  }
+  .video-container iframe {
+    width: 100%;
+    height: 500px;
+  }
+  .about-text .title-text p {
+    font-size: 20px;
+  }
+  .about-text .slogan h1 {
+    font-size: 42px;
+  }
+  .about-text .paragraf p {
+    font-size: 16px;
+  }
+  .timeline-content-right p {
+    font-size: 16px;
+  }
+  .timeline-content-left p {
+    font-size: 16px;
+  }
+  .visi-misi h2 {
+    font-size: 38px;
+  }
+  .visi-misi .col-2 {
+    margin-top: 5px;
+  }
+  .visi-misi .col-2 p {
+    font-size: 16px;
+  }
+  .visi-misi .col-2 ol li {
+    font-size: 16px;
+  }
+  .location .location-text h2 {
+    font-size: 42px;
+  }
+  .location .location-text p {
+    font-size: 13px;
+  }
+  .dewan .members .team-mem {
+    margin: 20px 60px;
+  }
+  .team-mem img {
+    width: 170px;
+    height: 170px;
+  }
+  .team-mem h4 {
+    font-size: 18px;
+  }
+  .team-mem p {
+    font-size: 14px;
+  }
+}

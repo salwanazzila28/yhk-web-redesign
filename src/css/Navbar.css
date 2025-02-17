@@ -1,0 +1,273 @@
+.header {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  z-index: 99;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.header.active {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 60px;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.header .nav-menu a {
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+.header.active .nav-menu a {
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+.header .navbar img {
+  width: 150px;
+  height: auto;
+}
+
+.header .nav-menu {
+  display: flex;
+}
+
+.header .nav-item {
+  padding: 50px;
+  font-weight: 500;
+}
+
+.header .nav-item a:hover {
+  padding-bottom: 5px;
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    position: relative;
+    z-index: 1000;
+  }
+  .hamburger .icon {
+    font-size: 30px;
+  }
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .header {
+    height: 50px;
+  }
+  .header.active {
+    height: 45px;
+  }
+  .header .nav-item {
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #006627;
+  }
+  .header .nav-item a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .header .nav-item a:hover {
+    color: var(--secondary-color);
+  }
+  .header .navbar img {
+    width: 100px;
+    padding-top: 5px;
+  }
+}
+
+/* Laptop M */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    height: 70px;
+    width: 100%;
+  }
+  .header.active {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 60px;
+  }
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+  }
+  .header .nav-menu a {
+    font-size: 12px;
+  }
+  .header.active .nav-menu a {
+    font-size: 12px;
+  }
+  .header .navbar img {
+    width: 130px;
+    height: auto;
+  }
+  .header .nav-item {
+    padding: 30px;
+  }
+}
+
+/* Tablet
+@media (max-width:768px) {
+    .header {
+        max-width: 768px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .header .navbar {
+        max-width: 768px;
+    }
+    
+    .header .navbar img {
+        width: 150px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.9);
+        max-width: 768px;
+        height: auto;
+        z-index: 999;
+        text-align: center;
+        transition: .3s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .header .nav-item {
+        padding: 20px 0;
+    }
+
+}
+
+
+Mobile L 
+@media (max-width:425px){
+    .header {
+        max-width: 425px;
+        background-color: #ffff;
+    }
+
+    .header .navbar {
+        max-width: 425px;
+    }
+    
+    .header .navbar img {
+        width: 130px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffff;
+        max-width: 425px;
+        height: auto;
+        z-index: 999;
+        text-align: center;
+        transition: .3s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .header .nav-item {
+        padding: 20px 0;
+    }
+} 
+
+/* 2xl
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl 
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* lg 
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md 
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* sm 
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs 
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+} */

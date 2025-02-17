@@ -1,0 +1,416 @@
+.saran {
+  background-color: #f3fde8;
+}
+
+.saran .header-saran {
+  padding: 100px 130px 0 130px;
+}
+
+.header-saran .body-header {
+  padding: 70px;
+  background: #fff;
+  border-radius: 150px 0px 150px 0px;
+}
+
+.body-header h1 {
+  color: var(--primary-dark);
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.body-header p {
+  color: var(--primary-dark);
+  text-align: center;
+}
+
+.saran .form-saran {
+  padding: 50px 125px 125px 125px;
+}
+
+.saran .form-saran form {
+  height: auto;
+  background-color: #ffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.2);
+}
+
+.saran .form-saran h1 {
+  color: var(--primary-dark);
+  margin-bottom: 20px;
+}
+
+.saran .form-saran .input-box {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.saran .form-saran input {
+  height: 100%;
+  width: 100%;
+  border: 2px solid var(--primary-dark);
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+  border-radius: 10px;
+  padding: 0 15px;
+  resize: none;
+}
+
+.form-saran .option {
+  margin-bottom: 15px;
+}
+
+.form-saran .option select {
+  width: 100%;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid var(--primary-dark);
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.saran .form-saran .input-text {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form-saran .input-text textarea {
+  width: 100%;
+  border: 2px solid var(--primary-dark);
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+  border-radius: 10px;
+  padding: 15px 15px;
+  resize: none;
+}
+
+.form-saran button[type="submit"] {
+  margin-top: 25px;
+  padding: 8px 28px;
+  font-size: 1.2rem;
+  width: 150px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: var(--primary-dark);
+  border: 0px solid var(--primary-dark);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.form-saran button:hover {
+  background: var(--secondary-dark);
+}
+
+.alert-container {
+  margin-top: 10px;
+  padding: 8px 28px;
+  color: #424242;
+  background-color: #7fb6ff;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/*Phone S - M*/
+@media (max-width: 375px) {
+  .saran {
+    max-width: 375px;
+  }
+  .saran .header-saran {
+    padding: 100px 20px 0 20px;
+  }
+  .header-saran .body-header {
+    padding: 30px 50px;
+    border-radius: 90px 0px 90px 0px;
+  }
+  .body-header h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .body-header p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .saran .form-saran {
+    padding: 50px 20px 180px 20px;
+  }
+  .saran .form-saran form {
+    padding: 20px;
+  }
+  .saran .form-saran h1 {
+    font-size: 24px;
+  }
+  .saran .form-saran .input-box {
+    height: 35px;
+  }
+  .saran .form-saran input {
+    font-size: 12px;
+    padding: 0 15px;
+  }
+  .form-saran .option {
+    margin-bottom: 15px;
+  }
+  .form-saran .option select {
+    font-size: 12px;
+    padding: 8px 8px;
+  }
+  .form-saran .input-text textarea {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+  .form-saran button[type="submit"] {
+    margin-top: 25px;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+/* Mobile L */
+@media (min-width: 376px) and (max-width: 425px) {
+  .saran {
+    max-width: 425px;
+  }
+  .saran .header-saran {
+    padding: 100px 30px 0 30px;
+  }
+  .header-saran .body-header {
+    padding: 30px 50px;
+    border-radius: 90px 0px 90px 0px;
+  }
+  .body-header h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .body-header p {
+    text-align: center;
+    font-size: 14px;
+  }
+  .saran .form-saran {
+    padding: 50px 30px 180px 30px;
+  }
+  .saran .form-saran form {
+    padding: 20px;
+  }
+  .saran .form-saran h1 {
+    font-size: 28px;
+  }
+  .saran .form-saran .input-box {
+    height: 35px;
+  }
+  .saran .form-saran input {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .form-saran .option {
+    margin-bottom: 15px;
+  }
+  .form-saran .option select {
+    font-size: 14px;
+    padding: 8px 8px;
+  }
+  .form-saran .input-text textarea {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+  .form-saran button[type="submit"] {
+    margin-top: 25px;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+/* Tablet Md */
+@media (min-width: 426px) and (max-width: 640px) {
+  .saran {
+    max-width: 640px;
+  }
+  .saran .header-saran {
+    padding: 100px 40px 0 40px;
+  }
+  .header-saran .body-header {
+    padding: 30px 50px;
+    border-radius: 90px 0px 90px 0px;
+  }
+  .body-header h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .body-header p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .saran .form-saran {
+    padding: 50px 40px 180px 40px;
+  }
+  .saran .form-saran form {
+    padding: 20px;
+  }
+  .saran .form-saran h1 {
+    font-size: 32px;
+  }
+  .saran .form-saran .input-box {
+    height: 45px;
+  }
+  .saran .form-saran input {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  .form-saran .option {
+    margin-bottom: 15px;
+  }
+  .form-saran .option select {
+    font-size: 16px;
+    padding: 8px 8px;
+    height: 45px;
+  }
+  .form-saran .input-text textarea {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+  .form-saran button[type="submit"] {
+    margin-top: 25px;
+    padding: 8px 15px;
+    font-size: 18px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+/* Tablet */
+@media (min-width: 641px) and (max-width: 768px) {
+  .saran {
+    max-width: 768px;
+  }
+  .saran .header-saran {
+    padding: 100px 40px 50px 40px;
+  }
+  .header-saran .body-header {
+    padding: 60px 50px;
+  }
+  .header-saran .body-header h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .body-header p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .saran .form-saran {
+    padding: 40px 40px 180px 40px;
+  }
+  .saran .form-saran form {
+    padding: 25px;
+  }
+  .saran .form-saran h1 {
+    font-size: 36px;
+  }
+  .saran .form-saran .input-box {
+    height: 50px;
+  }
+  .saran .form-saran input {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  .form-saran .option {
+    margin-bottom: 15px;
+  }
+  .form-saran .option select {
+    font-size: 16px;
+    padding: 8px 8px;
+    height: 50px;
+  }
+  .form-saran .input-text textarea {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+  .form-saran button[type="submit"] {
+    margin-top: 25px;
+    padding: 8px 20px;
+    font-size: 18px;
+    width: 140px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+/* Laptop M */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .saran {
+    max-width: 1024px;
+  }
+  .saran .header-saran {
+    padding: 100px 40px 50px 40px;
+  }
+  .header-saran .body-header {
+    padding: 60px 50px;
+    border-radius: 125px 0px 125px 0px;
+  }
+  .header-saran .body-header h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .body-header p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .saran .form-saran {
+    padding: 40px 40px 180px 40px;
+  }
+  .saran .form-saran form {
+    padding: 25px;
+  }
+  .saran .form-saran h1 {
+    font-size: 36px;
+  }
+  .saran .form-saran .input-box {
+    height: 50px;
+  }
+  .saran .form-saran input {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  .form-saran .option {
+    margin-bottom: 15px;
+  }
+  .form-saran .option select {
+    font-size: 16px;
+    padding: 8px 8px;
+    height: 50px;
+  }
+  .form-saran .input-text textarea {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+  .form-saran button[type="submit"] {
+    margin-top: 25px;
+    padding: 8px 20px;
+    font-size: 18px;
+    width: 140px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+  }
+}
