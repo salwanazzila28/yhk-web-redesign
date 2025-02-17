@@ -1,4 +1,4 @@
-# ykl-web-redesign
+# yhk-web-redesign
 ⚠️ Disclaimer
 This project is a redesign of the Hadji Kalla website, created solely for academic purposes as part of my internship final assignment. This project is not affiliated with, officially associated with, or endorsed by Hadji Kalla in any way.
 
